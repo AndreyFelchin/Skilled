@@ -1,0 +1,322 @@
+@media (max-width: 800px) {
+  .wrapper {
+    max-width: 768px;
+  }
+
+  .container {
+    max-width: 689px;
+  }
+
+  .btn {
+    width: 140px;
+    height: 48px;
+    font-size: 16px;
+  }
+
+  .header {
+    padding-bottom: 50px;
+    .logo img {
+      width: 89px;
+      height: 35px;
+    }
+  }
+
+  .info {
+    padding-bottom: 138px;
+    &_inner-content {
+      padding-top: 49px;
+      padding-right: 32px;
+      max-width: 430px;
+    }
+
+    &_inner-title {
+      font-size: 40px;
+      line-height: 50px;
+      margin-bottom: 25px;
+    }
+
+    &_inner-text {
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 24px;
+    }
+
+    &_inner-btn {
+      height: 56px;
+      line-height: 26px;
+    }
+
+    &_inner-btn:hover {
+      background: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0.5),
+          rgba(255, 255, 255, 0.5)
+        ),
+        linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    }
+
+    &_inner-graphics {
+      width: 268px;
+      padding: 0 51px 0 0;
+    }
+
+    .graphics {
+      height: 382.53px;
+      &_line {
+        width: 302px;
+        height: 504px;
+        background-image: url(../img/tablet-line.png);
+        background-position: bottom;
+      }
+
+      &_red {
+        width: 216.54px;
+        height: 382.53px;
+        background-image: url(../img/bgredTablet.png);
+      }
+
+      &_girl {
+        background-image: url(../img/girlTablet.png);
+        left: 0px;
+      }
+
+      &_lcard {
+        width: 155px;
+        height: 100px;
+        left: -45px;
+        bottom: -37.7px;
+        padding: 16px 45px 16px 20px;
+
+        &-title {
+          margin-bottom: 0;
+          font-size: 14px;
+        }
+
+        &-text {
+          font-size: 32px;
+          line-height: 40px;
+        }
+      }
+
+      &_rcard {
+        width: 105px;
+        height: 100px;
+        right: -51px;
+        top: -14px;
+        padding: 16px 20px;
+
+        &-title {
+          margin-bottom: 0;
+          font-size: 14px;
+        }
+
+        &-text {
+          font-size: 32px;
+          line-height: 40px;
+        }
+      }
+    }
+  }
+  .cards {
+    padding-bottom: 30px;
+    &_inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    &_inner-item {
+      width: 340px;
+      height: 259px;
+      padding: 56px 21px 32px 32px;
+      margin-bottom: 56px;
+    }
+
+    &_inner-title {
+      font-size: 20px;
+      line-height: 25px;
+      margin-bottom: 16px;
+    }
+
+    &_inner-text {
+      height: 78px;
+      font-size: 16px;
+    }
+  }
+
+  .gradient {
+    &_title {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+
+  .footer {
+    .logo img {
+      width: 89px;
+      height: 35px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .wrapper {
+    max-width: 375px;
+  }
+
+  .container {
+    max-width: 343px;
+  }
+
+  .btn {
+    width: 140px;
+    height: 48px;
+    font-size: 16px;
+  }
+
+  .header {
+    padding-bottom: 0px;
+    padding-top: 16px;
+  }
+
+  .info {
+    padding-bottom: 70px;
+    &_inner {
+      display: block;
+    }
+    &_inner-content {
+      padding-top: 38px;
+      padding-right: 0px;
+      padding-bottom: 70px;
+    }
+
+    &_inner-title {
+      margin-bottom: 26px;
+    }
+
+    &_inner-text {
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 24px;
+    }
+
+    &_inner-btn {
+      width: 167px;
+      height: 56px;
+      line-height: 26px;
+    }
+
+    &_inner-btn:hover {
+      background: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0.5),
+          rgba(255, 255, 255, 0.5)
+        ),
+        linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    }
+
+    &_inner-graphics {
+      width: 253px;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    .graphics {
+      height: 253px;
+      &_line {
+        display: none;
+      }
+
+      &_red {
+        width: 253px;
+        height: 253px;
+        position: static;
+        background-image: url(../img/bgredMobile.png);
+      }
+
+      &_girl {
+        position: static;
+        background-image: url(../img/girlMobile.png);
+        left: 0px;
+      }
+
+      &_lcard {
+        width: 155px;
+        height: 100px;
+        left: -37px;
+        bottom: -24px;
+        padding: 16px 45px 16px 20px;
+
+        &-title {
+          margin-bottom: 0;
+          font-size: 14px;
+        }
+
+        &-text {
+          font-size: 32px;
+          line-height: 40px;
+        }
+      }
+
+      &_rcard {
+        width: 105px;
+        height: 100px;
+        right: -37px;
+        top: -24px;
+        padding: 16px 20px;
+
+        &-title {
+          margin-bottom: 0;
+          font-size: 14px;
+        }
+
+        &-text {
+          font-size: 32px;
+          line-height: 40px;
+        }
+      }
+    }
+  }
+  .cards {
+    padding-bottom: 30px;
+    &_inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    &_inner-item {
+      width: 343px;
+      height: 259px;
+      padding: 56px 28px 32px 28px;
+      margin-bottom: 56px;
+    }
+
+    &_inner-title {
+      font-size: 20px;
+      line-height: 25px;
+      margin-bottom: 16px;
+    }
+
+    &_inner-text {
+      height: 78px;
+      font-size: 16px;
+    }
+  }
+
+  .gradient {
+    height: 120px;
+    padding-top: 24px;
+    &_title {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+
+  .footer {
+    .logo img {
+      width: 89px;
+      height: 35px;
+    }
+  }
+}

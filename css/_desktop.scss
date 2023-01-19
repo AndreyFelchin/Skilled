@@ -1,0 +1,233 @@
+.header {
+  padding-top: 24px;
+  padding-bottom: 87px;
+  &_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &_btn {
+    background-color: $db;
+    z-index: 1000;
+  }
+
+  &_btn:hover {
+    background-color: $lv;
+  }
+}
+
+.info {
+  padding-bottom: 110px;
+  &_inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_inner-content {
+    padding-top: 85px;
+    padding-right: 218px;
+    max-width: 685px;
+  }
+
+  &_inner-title {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+    color: $db;
+    margin-bottom: 29px;
+  }
+
+  &_inner-text {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  &_inner-btn {
+    height: 63px;
+    border-radius: 31.5px;
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  }
+
+  &_inner-btn:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  }
+
+  &_inner-graphics {
+    width: 425px;
+    padding: 0 54px;
+  }
+
+  .graphics {
+    position: relative;
+    height: 560px;
+    &_line {
+      width: 536px;
+      height: 726px;
+      background-image: url(../img/line.png);
+      background-repeat: no-repeat;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    &_red {
+      width: 317px;
+      height: 560px;
+      background-size: contain;
+      background-image: url(../img/bgred.png);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-repeat: no-repeat;
+    }
+
+    &_girl {
+      width: inherit;
+      height: inherit;
+      background-size: contain;
+      background-image: url(../img/girl.png);
+      position: absolute;
+      bottom: 0;
+      left: -4px;
+      background-repeat: no-repeat;
+    }
+
+    &_lcard {
+      width: 199px;
+      height: 120px;
+      position: absolute;
+      left: -120px;
+      bottom: 98px;
+      background: $w;
+      box-shadow: 0px 34px 54px rgba(6, 22, 141, 0.158854);
+      border-radius: 15px;
+      padding: 20px 72px 20px 24px;
+
+      &-title {
+        margin-bottom: 2px;
+        font-weight: 700;
+      }
+
+      &-text {
+        color: $db;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+      }
+    }
+
+    &_rcard {
+      width: 155px;
+      height: 120px;
+      position: absolute;
+      right: -118px;
+      top: 103px;
+      background: $w;
+      box-shadow: 0px 34px 54px rgba(6, 22, 141, 0.158854);
+      border-radius: 15px;
+      padding: 20px 57px 20px 24px;
+
+      &-title {
+        margin-bottom: 2px;
+        font-weight: 700;
+      }
+
+      &-text {
+        color: $db;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+      }
+    }
+  }
+}
+
+.cards {
+  min-height: 888px;
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  padding-top: 24px;
+  &_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &_inner-item {
+    width: 350px;
+    height: 322px;
+    position: relative;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+    padding: 64px 32px 40px;
+    margin-bottom: 80px;
+  }
+
+  &_inner-circle {
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 32px;
+    top: -24px;
+  }
+
+  &_inner-title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: $db;
+    margin-bottom: 24px;
+  }
+
+  &_inner-text {
+    height: 112px;
+    font-weight: 500;
+    font-size: 18px;
+    color: $g;
+    margin-bottom: 24px;
+  }
+
+  &_inner-button {
+    font-weight: 700;
+    font-size: 18px;
+    color: $bp;
+  }
+}
+
+.gradient {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  &_title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: $w;
+  }
+}
+
+.footer {
+  background-color: $db;
+  &_inner {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &_btn {
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+  }
+
+  &_btn:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+  } 
+
+}
+
+.logo {
+}
